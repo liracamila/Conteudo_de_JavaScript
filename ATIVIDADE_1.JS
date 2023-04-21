@@ -24,3 +24,5 @@ do {
     console.log(tabuada, " x ", cont, " = ", resultado);
     cont++;
 } while (cont <= 10);
+
+//Ok
