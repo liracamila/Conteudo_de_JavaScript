@@ -1,20 +1,26 @@
-// Crie um array com 5 números reais, e para cada elemento utilize funções matemáticas para exibir respectivamente:
+//Faça um algoritmo para exibir a tabuada de 2. O resultado na tela deve ser algo parecido com isso:
+// Resultado esperado
+// 2 x 1 = 2
+// 2 x 2 = 4
+// 2 x 3 = 6
+// 2 x 4 = 8
+// 2 x 5 = 10
+// 2 x 6 = 12
+// 2 x 7 = 14
+// 2 x 8 = 16
+// 2 x 9 = 18
+// 2 x 10 = 20
 
-// a. O quadrado
-// b. A raiz quadrada
-// c. Apenas a parte inteira
-// d. O número arredondado para baixo
-// e. O número arredondado para cima
+var cont = 0;
+var tabuada = 2;
+var resultado = cont * tabuada;
 
-const valores = [1, 8.12, 17, 34.8, 50];
+console.log("Tabuada do ", tabuada, ":");
 
-for (let i = 0; i < valores.length; i++) {
+do {
+    resultado = cont * tabuada;
+    console.log(tabuada, " x ", cont, " = ", resultado);
+    cont++;
+} while (cont <= 10);
 
-    console.log("Para o número: ", valores[i]);
-    console.log("O quadrado é: ", Math.pow(valores[i], 2));
-    console.log("A raiz quadrada é: ", Math.sqrt(valores[i]));
-    console.log("Apenas a parte inteira é:", Math.trunc(valores[i]));
-    console.log("Arredondando para cima fica: ", Math.ceil(valores[i]));
-    console.log("Arredondando para baixo fica: ", Math.floor(valores[i]));
-    console.log("------------------------------");
- }
+//Ok
