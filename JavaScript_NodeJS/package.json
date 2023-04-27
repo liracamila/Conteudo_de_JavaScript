@@ -1,0 +1,11 @@
+{
+  "name": "javascript_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Timeout_Interval.js",
+  "scripts": {
+    "test": "node ./Timeout_Interval.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
